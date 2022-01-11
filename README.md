@@ -6,5 +6,7 @@ Netty作为底层通讯框架，可以用来实现Web容器。
 
 
 
+
+
 ​	 Tomcat主要入口是web.xml。web.xml文件中主要配置Servlet、Filter、Listener等，而Servlet、Filter、Listener在J2EE中只是抽象的实现，具体的业务逻辑由我们自己实现。
 

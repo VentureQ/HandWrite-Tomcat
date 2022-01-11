@@ -12,7 +12,7 @@ import com.wangqi.netty.io.bio.tomcat.http.VTServlet;
 public class SecondServlet extends VTServlet {
     @Override
     public void doGet(VTRequest request, VTResponse response) throws Exception {
-        this.doGet(request,response);
+        this.doPost(request,response);
     }
 
     @Override
